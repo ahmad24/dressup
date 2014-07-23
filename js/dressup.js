@@ -29,7 +29,14 @@ $(document).ready(function() {
 	reset_dressup();
     });
 	
-    
+    /*
+	By Ahmad Nabulsi
+	*/
+	
+	$(function() {
+		$( ".body-parts li img" ).draggable();
+	});
+
 
 
 });
