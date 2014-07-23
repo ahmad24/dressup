@@ -26,7 +26,11 @@ $(document).ready(function() {
 
     // Reset Button
     $('#reset').click(function() {
-	reset_dressup();
+		$(".body-parts li img").each(function(){
+			$(this).css('left', '0px');
+			$(this).css('top', '0px');
+			
+		});
     });
 	
     /*
@@ -37,6 +41,8 @@ $(document).ready(function() {
 		$( ".body-parts li img" ).draggable();
 	});
 
+	
+	
 
 
 });
